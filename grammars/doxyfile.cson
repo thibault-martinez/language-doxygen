@@ -1,7 +1,8 @@
 'scopeName': 'source.doxyfile'
 'name': 'Doxyfile'
 'fileTypes': [
-  'Doxyfile'
+  'Doxyfile',
+  'CMakeDoxyfile.in'
 ]
 'patterns': [
   {
