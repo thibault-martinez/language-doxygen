@@ -2,6 +2,7 @@
 'name': 'Doxyfile'
 'fileTypes': [
   'Doxyfile',
+  'Doxyfile.in'
   'CMakeDoxyfile.in'
 ]
 'patterns': [
