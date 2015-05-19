@@ -6,6 +6,14 @@
   'CMakeDoxyfile.in'
 ]
 'patterns': [
+
+  {
+    'match': '^(\\w+)[ \\t]*='
+    'captures':
+      '1':
+        'name': 'variable.other.doxyfile'
+  }
+
   {
     'begin': '"'
     'end': '"'
@@ -17,6 +25,7 @@
       }
     ]
   }
+
   {
     'begin': '\''
     'end': '\''
@@ -28,8 +37,10 @@
       }
     ]
   }
+
   {
     'match': '^\\s*#.*$'
     'name': 'comment.block.doxyfile'
   }
+
 ]
