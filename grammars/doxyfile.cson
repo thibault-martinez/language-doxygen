@@ -5,6 +5,7 @@
   'Doxyfile.in'
   'CMakeDoxyfile.in'
   '.doxygen'
+  '.dox'
 ]
 'patterns': [
 
